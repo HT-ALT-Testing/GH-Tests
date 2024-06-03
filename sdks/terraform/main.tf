@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     github = {
-      source = "integrations/github"
-      version = "5.44.0"
+      source  = "integrations/github"
+      version = "6.2.1"
     }
   }
 }
@@ -12,6 +12,6 @@ provider "github" {
 }
 
 resource "github_branch" "development" {
-  repository = "Github-Examples"
-  branch     = "sdks"
+  repository = "GH-Tests-Fork"
+  branch     = "sdks-new"
 }
