@@ -1,0 +1,16 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Github api usage",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harvey",
+  "license": "ISC",
+  "dependencies": {
+    "octokit": "^4.0.2"
+  }
+}
