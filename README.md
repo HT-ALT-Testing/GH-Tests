@@ -1,2 +1,12 @@
-# Github-Examples
-A repo containing GitHub for programmatic examples
+## Markdown Examples
+
+- headings
+- unordered lists
+- ordered lists
+- text formatting
+- code
+- tables 
+- links 
+- images 
+- autolists
+- list
