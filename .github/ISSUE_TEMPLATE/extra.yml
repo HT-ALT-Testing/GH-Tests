@@ -1,7 +1,7 @@
 name: Extra Bug Report
 description: File a bug report.
 title: '[Bug]: '
-labels: ['bug', 'triage'. 'secret']
+labels: ['bug', 'triage','secret']
 projects: ['octo-org/1', 'octo-org/44']
 assignees:
     - octocat
