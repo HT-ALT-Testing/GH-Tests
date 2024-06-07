@@ -1,0 +1,58 @@
+name: Extra Bug report
+description: File a bug report
+title: '[BUG] '
+labels: ['bug', 'secret']
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thanks for taking the time to fill out this bug report!
+
+    - type: input
+      attributes:
+          label: Describe the bug
+          description: A clear and concise description of what the bug is.
+          placeholder: Describe the issue...
+          required: true
+
+    - type: textarea
+      attributes:
+          label: To Reproduce
+          description: Steps to reproduce the behavior.
+          placeholder: Step-by-step instructions on how to reproduce the issue.
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Expected behavior
+          description: A clear and concise description of what you expected to happen.
+          placeholder: Describe what you expected...
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Screenshots
+          description: If applicable, add screenshots to help explain your problem.
+          placeholder: Upload screenshots or paste image URLs here.
+          required: false
+
+    - type: input
+      attributes:
+          label: Desktop (please complete the following information)
+          description: OS, Browser, Version
+          placeholder: e.g., Windows 10, Chrome 90
+          required: false
+
+    - type: input
+      attributes:
+          label: Smartphone (please complete the following information)
+          description: Device, OS, Browser, Version
+          placeholder: e.g., iPhone 12, iOS 14, Safari
+          required: false
+
+    - type: textarea
+      attributes:
+          label: Additional context
+          description: Add any other context about the problem here.
+          placeholder: Additional context...
+          required: false
